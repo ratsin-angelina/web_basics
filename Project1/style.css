@@ -1,0 +1,23 @@
+.meta {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  color: #ffc814;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  padding-left: 45%;
+}
+.container1 {
+  color: #ffc814;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  padding-left: 20%;
+}
+.meta1 {
+  background-color: #ffc814;
+  padding-left: 35%;
+  padding-right: 20%;
+  position: relative;
+  max-width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
