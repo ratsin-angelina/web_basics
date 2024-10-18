@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="app"></div>
+    <h1>Моя перша HTML форма</h1>
+    <script src="./index.mjs" type="module"></script>
+    <form action="https://httpbin.org/get" method="get">
+      <label for="name">Ім'я:</label>
+         <input type="text" id="name" name="name"><br><br>
+     <label for="birthday">Дата народження:</label>
+         <input type="date" id="birthday" name="birthday"><br><br>
+     <label for="email">Email:</label>
+         <input type="email" id="email" name="email"><br><br>
+         <label for="text">Повідомлення:</label>
+         <input type="text" id="text" name="text"><br><br>
+         <picture>
+          <source media="(max-width: 467px)" srcset="https://picsum.photos/300/500">
+          <img src="https://picsum.photos/1000/400">
+        </picture><br>
+        <p>Ваші улюблені напої</p>
+         <input type="checkbox" id="drink1" name="drinks">
+         <label for="drinks">Кава</label><br>
+         <input type="checkbox" id="drink2" name="drinks">
+         <label for="drinks">Чай</label><br>
+         <input type="checkbox" id="drink3" name="drinks">
+         <label for="drinks">Лимонад</label><br>
+         <input type="checkbox" id="drink2" name="drinks">
+         <label for="drinks">Пиво</label><br>
+        <p>Ваша національність</p>
+        <input type="radio" id="national1" name="national">
+        <label for="national">Українець</label><br>
+        <input type="radio" id="nationa2" name="national">
+        <label for="national">Поляк</label><br>
+        <input type="radio" id="national3" name="national">
+        <label for="national">Словак</label><br>
+       <button>Очистити</button> <button>Відправити</button><br>
+  </body>
+</html>
