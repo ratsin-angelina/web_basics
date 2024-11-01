@@ -1,0 +1,73 @@
+/* Тут починаються стилі для іншої хтмл сторінки з меню*/
+.my-menu {
+  background-color: #9aeeff4b;
+  padding: 20px;
+}
+.my-menu h1 {
+  background-color: white;
+  border: whitesmoke;
+  border-radius: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: xx-large;
+  color: #ff4f60;
+  font-size: 30px;
+}
+.my-menu p {
+  text-align: center;
+  font-size: 20px;
+}
+.my-menu img {
+  border-radius: 30px;
+  position: relative;
+  box-shadow: #555 4px 4px 4px 4px;
+}
+.my-menu b {
+  text-align: right;
+  position: absolute;
+  top: 320px;
+  background-color: white;
+  border: whitesmoke;
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 50px;
+}
+.my-drinks {
+  background-color: #f523424b;
+  padding: 20px;
+}
+.my-drinks h1 {
+  background-color: white;
+  border: whitesmoke;
+  border-radius: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: xx-large;
+  color: #23292faf;
+  font-size: 30px;
+}
+.my-drinks p {
+  font-size: 20px;
+  text-align: center;
+}
+.my-drinks img {
+  border-radius: 30px;
+  position: relative;
+  box-shadow: #555 4px 4px 4px 4px;
+}
+.my-drinks b {
+  text-align: right;
+  position: absolute;
+  top: 1000px;
+  background-color: white;
+  border: whitesmoke;
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 50px;
+}
